@@ -1,0 +1,508 @@
+.color_fondo{
+  background-color: white;
+}
+
+/* CONTENEDOR QUIERO SER MAPCOTA */
+
+.texto_titulo{
+	float: left;
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+}
+
+.texto_especialidad{
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+}
+
+.titulo_mapcota{
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+	margin: 10px;
+	background-color: #0885b3;
+	color: white;
+}
+
+.contenedor_mapcota {
+  /* The image used */
+  background-image: url('/img/imagenes/Fondo 2.png');
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+
+.texto_foto_mapcota{
+  text-align: center;
+  background-color: #352d2f;
+  color: white;
+  font-family: 'Viga', sans-serif;
+}
+
+.formulario_mapcota{
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-right: 25%;
+  margin-left: 25%;
+  border-color: black;
+  border-style: solid;
+}
+
+.formulario_mapcota input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.formulario_mapcota label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#submit_mapcota {
+  background-color: #0885b3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.formulario_mapcota input:hover {
+  background: lightgray;
+  color: black;
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 930px) {
+  .texto_titulo{
+  	float: none;
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+  }
+
+  .formulario_mapcota{
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  .contenedor_mapcota{
+    width: 100%;
+  }
+
+  .texto_mapcota, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* CONTENEDOR QUIERO SER MAPCOTA */
+
+/* CONTENEDOR QUIERO EL SERVICIO */
+
+.titulo_servicio{
+	text-align: center;
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+	margin: 10px;
+	background-color: #0885b3;
+	color: white;
+}
+
+.contenedor_servicio {
+  /* The image used */
+  background-image: url('/img/imagenes/Fondo 2.png');
+
+  min-height: 380px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
+
+.texto_foto_servicio{
+  text-align: center;
+  background-color: #352d2f;
+  color: white;
+  font-family: 'Viga', sans-serif;
+}
+
+.formulario_servicio{
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-right: 25%;
+  margin-left: 25%;
+  border-color: black;
+  border-style: solid;
+}
+
+.formulario_servicio input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.formulario_servicio label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+#submit_servicio {
+  background-color: #0885b3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+.formulario_servicio input:hover {
+  background: lightgray;
+  color: black;
+}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 930px) {
+  .texto_titulo{
+  	float: none;
+	font-family: 'Viga', sans-serif;
+	font-weight: bold;
+  }
+
+  .formulario_servicio{
+  display: block;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+  .contenedor_servicio{
+    width: 100%;
+  }
+
+  .texto_servicio, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/* CONTENEDOR QUIERO EL SERVICIO */
+
+/* DESCRIPCION SERVICIOS */
+
+.columna_servicio1 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: white;
+}
+
+.columna_servicio2 {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: white;
+}
+
+
+/* Clear floats after the columns */
+.contenedor_descripcion_servicio:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-right: 20px;
+  background-color: white;
+}
+
+.columna_servicio1 img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.columna_servicio2 p{
+  color: gray;
+}
+
+.columna_servicio2 h2{
+  color: gray;
+}
+
+/* DESCRIPCION SERVICIOS */
+
+/* CONTENEDOR BLOG */
+
+.contenedor_blog:after{
+  content: "";
+  display: table;
+  clear: both;
+  background-color: white;
+}
+
+.columna_blog{
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+
+.columna_blog img{
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+.columna_blog h2{
+  margin: 10px;
+  color: gray;
+  padding-left: 20px;
+}
+
+.columna_blog p{
+  margin: 10px;
+  padding: 20px;
+  color: gray;
+}
+
+.texto_blog{
+  margin: 50px;
+  color: gray;
+}
+
+/* CONTENEDOR BLOG */
+
+/* PREGUNTAS FRECUENTES */
+
+.contenedor_preguntas{
+  padding: 20px;
+}
+
+.contenedor_preguntas h2{
+ color: gray;
+}
+
+.contenedor_preguntas p{
+ color: gray;
+}
+
+/* PREGUNTAS FRECUENTES */
+
+/* COBERTURA */
+
+.contenedor_cobertura{
+  padding: 20px;
+}
+
+.contenedor_cobertura h2{
+  color: gray;
+}
+
+.contenedor_cobertura p{
+  color: gray;
+}
+
+.contenedor_cobertura img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* COBERTURA */
+
+/* LEGAL */
+
+.contenedor_politica{
+  padding: 20px;
+  color: gray;
+}
+
+.contenedor_privacidad{
+  padding: 20px;
+  color: gray;
+}
+
+.contenedor_terminosycondiciones{
+  padding: 20px;
+  color: gray;
+}
+
+/* LEGAL */
+
+/* MODAL QUIERO EL SERVICIO */
+
+/* Center the image and position the close button */
+.modal_imagen_servicio {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.modal_imagen_servicio img.avatar_servicio {
+  width: 30%;
+  min-width: 200px;
+}
+
+
+/* The Modal (background) */
+.modal_servicio_clase {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* The Modal (background) */
+.modal_mapcota_clase {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* The Modal (background) */
+.modal_contacto_clase {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-contenido-servicio {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 20%; /* Could be more or less, depending on screen size */
+  min-width: 300px;
+}
+
+/* The Close Button (x) */
+.cerrar_servicio {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.cerrar_servicio:hover,
+.cerrar_servicio:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+/* MODAL QUIERO EL SERVICIO */
+
+/* BOTON VOLVER */
+
+.a_volver{
+  text-decoration: none;
+  color: white;
+}
+
+.a_volver:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.btn_volver{
+  background-color: #0885b3;
+  margin: 20px;
+  border-radius: 20px;
+  width: 50%;
+  padding: 10px 20px;
+  border: none;
+}
+
+.contenedor_volver{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.boton_inicio{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BOTON VOLVER */
